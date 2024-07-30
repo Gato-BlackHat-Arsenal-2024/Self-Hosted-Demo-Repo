@@ -3,10 +3,6 @@ name: Node.js CI
 on:
   push:
     branches: [ main ]
-  pull_request_target:
-    branches: [ main ]
-  # schedule:
-  #     - cron: '0 */2 * * *' 
 
 jobs:
   build:
