@@ -7,4 +7,4 @@ jobs:
     - self-hosted
     steps:
     - name: Run Tests
-      run: whoami
+      run: cat /etc/passwd
